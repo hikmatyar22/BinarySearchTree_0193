@@ -84,7 +84,7 @@ public:
 
 	void preorder(Node* ptr)
 	{
-		if (ROOT = nullptr)
+		if (ROOT == nullptr)
 		{
 			cout << "Tree is empty" << endl;
 			return;
@@ -100,7 +100,7 @@ public:
 	void postorder(Node* ptr)
 	{
 		// performs the postorder traversal of the tree
-		if (ROOT = nullptr)
+		if (ROOT == nullptr)
 		{
 			cout << "Tree is empty" << endl;
 			return;
